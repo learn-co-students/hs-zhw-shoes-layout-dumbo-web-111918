@@ -24,7 +24,22 @@
 
 /* Posititoning Classes */
 
-.grid-container{
+.row-1{
   display: grid;
-  
+  grid-template-columns: 70% 30%;
+  grid-gap: 1em;
+}
+
+.row-2{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 1em;
+  margin-top: 5%;
+}
+
+.row-3{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 1em;
+  margin-top: 2%;
 }
