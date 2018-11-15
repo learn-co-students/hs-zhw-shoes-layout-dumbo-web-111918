@@ -4,9 +4,9 @@
   margin:0;
   padding:0;
   border:0;
-  box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .clearfix:after {
@@ -23,5 +23,32 @@
 }
 
 /* Posititoning Classes */
-
-
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+  height: 100%;
+}
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.col-1 {
+  width: 32%;
+}
+.col-2 {
+  width: 66%;
+}
+.col-3 {
+  width: 100%;
+}
+.first {
+  margin-left: 0;
+}
+.last {
+  margin-bottom: 0;
+}
+ul {
+  line-height: 1.187;
+}
